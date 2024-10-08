@@ -1,0 +1,28 @@
+PartType,PartDescription,ProductInfo,Color,Quantity,PartNumber,SingleP,BulkP
+Pickets,Deck Pickets,36 inch (31.06"),Black,3600,NP063136B,$3.03,$2.58
+Pickets,Deck Pickets,36 inch (31.06"),White,3600,NP06313W,$3.03,$2.58
+Pickets,Deck Pickets,36 inch (31.06"),Bronze,3600,NP063136Z,$3.03,$2.58
+Pickets,Deck Pickets,42 inch (36.63"),Black,3600,NP063142B,$3.46,$2.95
+Pickets,Deck Pickets,42 inch (36.63"),White,3600,NP063142W,$3.46,$2.95
+Pickets,Deck Pickets,42 inch (36.63"),Bronze,3600,NP063142Z,$3.46,$2.95
+Pickets,Deck Pickets,43 inch (38.50") for 2" gap *,Black,3600,NP063139B,$3.65,$3.20
+Pickets,Deck Pickets,43 inch (38.50") for 2" gap *,White,3600,NP063139W,$3.65,$3.20
+Pickets,Deck Pickets,43 inch (38.50") for 2" gap *,Bronze,3600,NP063139Z,$3.65,$3.20
+Stair Pickets,36 inch (31.06"),Black,1800,NP053136B,$3.16,$2.75
+Stair Pickets,36 inch (31.06"),White,1800,NP053136W,$3.16,$2.75
+Stair Pickets,36 inch (31.06"),Bronze,1800,NP053136Z,$3.16,$2.75
+Stair Pickets,42 inch (38.50"),Black,1400,NP053142B,$3.57,$3.18
+Stair Pickets,42 inch (38.50"),White,1400,NP053142W,$3.57,$3.18
+Stair Pickets,42 inch (38.50"),Bronze,1400,NP053142Z,$3.57,$3.18
+Lineal Picket,16 foot (189"),Black,216,NP053116B,$18.85,$15.25
+Lineal Picket,16 foot (189"),White,216,NP053116W,$18.85,$15.25
+Lineal Picket,16 foot (189"),Bronze,216,NP053116Z,$18.85,$15.25
+H-Channel,Deck H-Channel,6 foot (69.43"),Black,600,NH063106B,$11.03,$9.58
+H-Channel,Deck H-Channel,6 foot (69.43"),White,600,NH063106W,$11.03,$9.58
+H-Channel,Deck H-Channel,6 foot (69.43"),Bronze,600,NH063106Z,$11.03,$9.58
+H-Channel,Deck H-Channel,8 foot (91.31"),Black,600,NH063108B,$14.42,$12.52
+H-Channel,Deck H-Channel,8 foot (91.31"),White,600,NH063108W,$14.42,$12.52
+H-Channel,Deck H-Channel,8 foot (91.31"),Bronze,600,NH063108Z,$14.42,$12.52
+H-Channel,Deck H-Channel,18 foot (209"),Black,128,NH063118B,$37.23,$30.35
+H-Channel,Deck H-Channel,18 foot (209"),White,128,NH063118W,$37.23,$30.35
+H-Channel,Deck H-Channel,18 foot (209"),Bronze,128,NH063118Z,$37.23,$30.35
