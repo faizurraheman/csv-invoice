@@ -19,6 +19,9 @@
                     <x-nav-link :href="route('admin.import')" :active="request()->routeIs('admin.import')">
                         {{ __('Product') }}
                     </x-nav-link>
+                    <x-nav-link :href="url('invoices')" :active="request()->routeIs('invoices.index')">
+                        {{ __('Invoices') }}
+                    </x-nav-link>
                     @else
                     <x-nav-link :href="url('invoices')" :active="request()->routeIs('invoices.index')">
                         {{ __('Invoices') }}
