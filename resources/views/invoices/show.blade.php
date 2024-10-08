@@ -1,4 +1,3 @@
-{{-- resources/views/invoices/show.blade.php --}}
 
 @extends('layouts.app')
 

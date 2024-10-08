@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('product_info')->nullable();
             $table->string('color')->nullable();
             $table->integer('quantity')->nullable();
-            $table->string('part_number')->unique(); // Assuming part numbers are unique
+            $table->string('part_number')->unique();
             $table->decimal('single_price', 10, 2)->nullable();
             $table->decimal('bulk_price', 10, 2)->nullable();
             $table->timestamps();

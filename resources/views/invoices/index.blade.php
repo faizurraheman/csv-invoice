@@ -58,7 +58,7 @@
                         search: query
                     },
                     headers: {
-                    'X-CSRF-TOKEN': csrfToken // Set the CSRF token in the headers
+                    'X-CSRF-TOKEN': csrfToken
                 },
                     success: function(data) {
                         $('#invoice-list').html(data);

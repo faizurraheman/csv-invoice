@@ -20,7 +20,6 @@ class InvoiceItem extends Model
         return $this->belongsTo(Invoice::class);
     }
 
-    // Define the relationship with Product
     public function product()
     {
         return $this->belongsTo(Product::class);

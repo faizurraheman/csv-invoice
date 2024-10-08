@@ -23,7 +23,6 @@ class InvoiceController extends Controller
 
     public function store(Request $request)
     {
-        // Validate the request
         $request->validate([
             'customer_name' => 'required|string|max:255',
             'invoice_date' => 'required|date',
@@ -32,16 +31,14 @@ class InvoiceController extends Controller
             'items.*.quantity' => 'required|integer|min:1',
         ]);
 
-        // Create the invoice
         $invoice = Invoice::create([
             'customer_name' => $request->customer_name,
             'invoice_date' => $request->invoice_date,
-            'total_amount' => 0, // Will be calculated later
+            'total_amount' => 0,
         ]);
 
         $totalAmount = 0;
 
-        // Store each invoice item
         foreach ($request->items as $item) {
             $product = Product::find($item['product_id']);
             $price = $item['price'] == 'bulk' ? $product->bulk_price : $product->single_price;
@@ -69,7 +66,6 @@ class InvoiceController extends Controller
 
     public function update(Request $request, Invoice $invoice)
     {
-        // Validate the request
         $request->validate([
             'customer_name' => 'required|string|max:255',
             'invoice_date' => 'required|date',
@@ -78,18 +74,15 @@ class InvoiceController extends Controller
             'items.*.quantity' => 'required|integer|min:1',
         ]);
 
-        // Update the invoice details
         $invoice->update([
             'customer_name' => $request->customer_name,
             'invoice_date' => $request->invoice_date,
         ]);
 
-        // Delete existing items
         $invoice->invoiceItems()->delete();
 
         $totalAmount = 0;
 
-        // Store each invoice item
         foreach ($request->items as $item) {
             $product = Product::find($item['product_id']);
             $price = $item['price'] == 'bulk' ? $product->bulk_price : $product->single_price;
